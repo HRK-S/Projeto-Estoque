@@ -9,15 +9,12 @@ email varchar(45),
 senha varchar(45),
 endereço varchar(45),
 contato int,
-id_funcionario int,
-
-foreign key(id_funcionario) references Funcionario (funcionario_id)
+tipo ENUM('usuario', 'funcionario') NOT NULL,
+id_funcionario INT,
+    
+FOREIGN KEY (id_funcionario) REFERENCES Funcionario (funcionario_id)
 );
 
-CREATE table Funcionario (	
-funcionario_id INT PRIMARY KEY NOT NULL,
-cargo varchar(45)
-);
 
 
 CREATE table Peça (
