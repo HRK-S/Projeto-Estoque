@@ -1,1 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Quicksand:wght@300..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+  a{
+    text-decoration: none; 
+    color: #000;
+  }
+  
+
+  
+  body{
+    background: linear-gradient(270deg, rgba(9, 78, 255, 0.76) 0.07%, rgba(65, 0, 252, 0.76) 0.08%, rgba(77, 22, 233, 0.76) 34.33%, rgba(90, 146, 255, 0.76) 66.85%, rgba(255, 255, 255, 0.76) 99.12%);
+  }
+  .carro{
+      padding-left: 200px;
+      padding-top: 80px;
+      width: 577px;
+      height: 443px;
+      flex-shrink: 2; 
+      
+  }
+    
+  
+  nav{
+    padding: 0 80px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    height: 80px; 
+  }
+ 
+
+  nav a.Logo {
+    color: rgba(0, 0, 0, 0.57);
+    font-family: Galada;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+  
+    nav .links {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+  
+    }
+  
+    .links a{
+      position: relative;
+      padding-bottom: 0.75rem;
+      color: rgb(255, 255, 255);
+      font-family: Quicksand;
+    }
+    
+    .links ::after{
+      content: "";
+      position: absolute;
+      height:  2px;
+      width: 0;
+      bottom: 0;
+      left: 0;
+      background-color: #01647A;
+      transition: all 0.3s ease;
+    }
+  
+    .links a:hover::after{
+      width: 70%;
+    }
+  
+  
+  
+    nav .Login button{
+      
+      padding: 10px 30px;
+      border-radius: 30px;
+      margin-right: 14px;
+      cursor: pointer;
+      background-color: transparent;
+  
+    }
+  
