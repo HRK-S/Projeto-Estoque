@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="stylesheet" href="tela_inicial.css">
+  <title>Auto peças</title>
+</head>
+<body>
+
+  <nav>
+      <a href="#" class="Logo">Auto Peças</a>
+      <div class="links">
+          <a href="#">Home</a>
+          <a href="#">Contato</a>
+          <a href="#">Agendamento</a>
+          <a href="#">Sobre Nos</a>
+      </div>
+      <div class="Login">
+        <button>Login</button>
+      </div>
+  </nav>
+  <div class="carro">
+    <img src="kisspng-2018-nissan-maxima-3-5-s-sedan-car-2018-nissan-max-chevrolet-cruze-5b3eb7df5add18 1.png" alt ="carro tela inicial" srcset="">
+     
+  </div>
+</body> 
 
